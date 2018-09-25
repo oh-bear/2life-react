@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import template from './common/template'
+import template from './temp/template'
 
-class Test extends Component {
+class Note extends Component {
   constructor() {
     super();
     this.state = {}
@@ -9,10 +9,10 @@ class Test extends Component {
 
   render() {
     return (
-      <div id='Test'>
+      <div id='Note'>
 
       </div>
     )
   }
 }
-export default Test;
+export default Note;
